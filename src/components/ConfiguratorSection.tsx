@@ -92,7 +92,7 @@ export const ConfiguratorSection: React.FC<ConfiguratorSectionProps> = ({
                 ATELIER COMMISSION & CONFIGURATION
               </span>
             </div>
-            <h2 className="text-4xl sm:text-6xl md:text-7xl font-rajdhani font-black tracking-tight text-white uppercase">
+            <h2 className="text-3xl sm:text-5xl md:text-6xl font-syne font-extrabold tracking-tight text-white uppercase">
               CONFIGURE YOUR AURA
             </h2>
           </div>
@@ -122,7 +122,7 @@ export const ConfiguratorSection: React.FC<ConfiguratorSectionProps> = ({
                 <span className="text-[10px] font-mono-tech tracking-[0.25em] text-[#d4af37] uppercase block font-semibold">
                   3D ATELIER PREVIEW
                 </span>
-                <span className="text-xl sm:text-2xl font-rajdhani font-bold text-white uppercase">
+                <span className="text-xl sm:text-2xl font-syne font-extrabold text-white uppercase">
                   {vehicle.name}
                 </span>
               </div>
@@ -314,7 +314,7 @@ export const ConfiguratorSection: React.FC<ConfiguratorSectionProps> = ({
             </div>
 
             {/* 3. Persistent Luxury Price Breakdown */}
-            <div className="p-6 rounded-3xl bg-gradient-to-b from-[#181b27] to-[#10131c] border border-neutral-700/60 shadow-[0_15px_35px_rgba(0,0,0,0.6)] font-rajdhani">
+            <div className="p-6 rounded-3xl bg-gradient-to-b from-[#181b27] to-[#10131c] border border-neutral-700/60 shadow-[0_15px_35px_rgba(0,0,0,0.6)] font-syne">
               <span className="text-[10px] font-mono-tech tracking-[0.25em] text-[#d4af37] uppercase block mb-4 font-semibold">
                 COMMISSION VALUATION
               </span>
@@ -334,7 +334,7 @@ export const ConfiguratorSection: React.FC<ConfiguratorSectionProps> = ({
 
                 <div className="flex items-baseline justify-between pt-1">
                   <span className="text-base font-bold text-white uppercase">TOTAL</span>
-                  <span className="text-2xl sm:text-3xl font-black text-white">
+                  <span className="text-2xl sm:text-3xl font-extrabold text-white">
                     ₹{finalPriceInCrores.toFixed(2)} CR
                   </span>
                 </div>
@@ -348,7 +348,7 @@ export const ConfiguratorSection: React.FC<ConfiguratorSectionProps> = ({
                     engineSound.playActivationChime();
                     onNavigateToFinance(finalPriceInInr);
                   }}
-                  className="w-full py-3.5 rounded-full bg-gradient-to-r from-[#e5ca9a] via-[#f7ebd8] to-[#d4af37] hover:brightness-110 text-neutral-950 font-rajdhani font-bold text-xs tracking-[0.2em] uppercase transition-all cursor-pointer shadow-[0_0_20px_rgba(212,175,55,0.3)] hover:scale-105 active:scale-95"
+                  className="w-full py-3.5 rounded-full bg-gradient-to-r from-[#e5ca9a] via-[#f7ebd8] to-[#d4af37] hover:brightness-110 text-neutral-950 font-syne font-bold text-xs tracking-[0.16em] uppercase transition-all cursor-pointer shadow-[0_0_20px_rgba(212,175,55,0.3)] hover:scale-105 active:scale-95"
                 >
                   CALCULATE LEASE / FINANCE
                 </button>
@@ -359,7 +359,7 @@ export const ConfiguratorSection: React.FC<ConfiguratorSectionProps> = ({
                     engineSound.playClickBeep();
                     onRequestQuote(vehicle, configSummary);
                   }}
-                  className="w-full py-3.5 rounded-full bg-[#151824] hover:bg-[#1d2232] text-white border border-neutral-750 hover:border-[#d4af37]/60 font-rajdhani font-bold text-xs tracking-[0.2em] uppercase transition-all cursor-pointer active:scale-95 shadow-md"
+                  className="w-full py-3.5 rounded-full bg-[#151824] hover:bg-[#1d2232] text-white border border-neutral-750 hover:border-[#d4af37]/60 font-syne font-bold text-xs tracking-[0.16em] uppercase transition-all cursor-pointer active:scale-95 shadow-md"
                 >
                   REQUEST BESPOKE QUOTE
                 </button>

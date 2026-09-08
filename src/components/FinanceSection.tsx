@@ -78,7 +78,7 @@ export const FinanceSection: React.FC<FinanceSectionProps> = ({
               PRIVATE CLIENT CAPITAL SOLUTIONS
             </span>
           </div>
-          <h2 className="text-4xl sm:text-6xl font-rajdhani font-black tracking-tight text-white uppercase">
+          <h2 className="text-4xl sm:text-6xl font-syne font-extrabold tracking-tight text-white uppercase">
             ATELIER FINANCE
           </h2>
         </div>
@@ -93,7 +93,7 @@ export const FinanceSection: React.FC<FinanceSectionProps> = ({
                 <span className="text-xs font-mono-tech tracking-wider text-[#d4af37] uppercase font-semibold">
                   VEHICLE PRICE
                 </span>
-                <span className="text-2xl font-rajdhani font-black text-white">
+                <span className="text-2xl font-syne font-extrabold text-white">
                   ₹{(totalPrice / 10000000).toFixed(2)} CR
                 </span>
               </div>
@@ -108,7 +108,7 @@ export const FinanceSection: React.FC<FinanceSectionProps> = ({
                 <span className="text-xs font-mono-tech tracking-wider text-neutral-300 uppercase">
                   DOWN PAYMENT ({downPaymentPercent}%)
                 </span>
-                <span className="text-xl font-rajdhani font-bold text-[#d4af37]">
+                <span className="text-xl font-syne font-bold text-[#d4af37]">
                   ₹{(downPaymentInInr / 100000).toFixed(1)} LAKHS
                 </span>
               </div>
@@ -130,7 +130,7 @@ export const FinanceSection: React.FC<FinanceSectionProps> = ({
                 <span className="text-xs font-mono-tech tracking-wider text-neutral-300 uppercase">
                   TENURE
                 </span>
-                <span className="text-xl font-rajdhani font-bold text-white">
+                <span className="text-xl font-syne font-bold text-white">
                   {tenureMonths} MONTHS ({Math.round(tenureMonths / 12)} YRS)
                 </span>
               </div>
@@ -152,7 +152,7 @@ export const FinanceSection: React.FC<FinanceSectionProps> = ({
                 <span className="text-xs font-mono-tech tracking-wider text-neutral-300 uppercase">
                   ANNUAL INTEREST RATE
                 </span>
-                <span className="text-xl font-rajdhani font-bold text-white">
+                <span className="text-xl font-syne font-bold text-white">
                   {interestRateAnnual.toFixed(1)}% APR
                 </span>
               </div>
@@ -180,7 +180,7 @@ export const FinanceSection: React.FC<FinanceSectionProps> = ({
               </span>
 
               {/* Prominent Monthly EMI */}
-              <div className="text-4xl sm:text-5xl md:text-6xl font-rajdhani font-black text-white tracking-tight leading-none my-4">
+              <div className="text-4xl sm:text-5xl md:text-6xl font-syne font-extrabold text-white tracking-tight leading-none my-4">
                 ₹{(monthlyEmiInInr / 100000).toFixed(2)} L
               </div>
               <span className="text-xs font-mono-tech text-neutral-400 uppercase tracking-widest block">
@@ -190,7 +190,7 @@ export const FinanceSection: React.FC<FinanceSectionProps> = ({
               <div className="w-full h-[1px] bg-neutral-800 my-8" />
 
               {/* Summary Stats */}
-              <div className="grid grid-cols-2 gap-4 text-left font-rajdhani">
+              <div className="grid grid-cols-2 gap-4 text-left font-syne">
                 <div>
                   <span className="text-[10px] font-mono-tech text-neutral-400 uppercase block">
                     PRINCIPAL FINANCED
@@ -216,7 +216,7 @@ export const FinanceSection: React.FC<FinanceSectionProps> = ({
               <button
                 id="finance-apply-btn"
                 onClick={handleApply}
-                className="w-full py-4 rounded-full bg-gradient-to-r from-[#e5ca9a] via-[#f7ebd8] to-[#d4af37] hover:brightness-110 text-neutral-950 font-rajdhani font-bold text-xs tracking-[0.25em] uppercase transition-all shadow-[0_0_25px_rgba(212,175,55,0.35)] cursor-pointer hover:scale-105 active:scale-95"
+                className="w-full py-4 rounded-full bg-gradient-to-r from-[#e5ca9a] via-[#f7ebd8] to-[#d4af37] hover:brightness-110 text-neutral-950 font-syne font-bold text-xs tracking-[0.18em] uppercase transition-all shadow-[0_0_25px_rgba(212,175,55,0.35)] cursor-pointer hover:scale-105 active:scale-95"
               >
                 APPLY FOR CAPITAL
               </button>

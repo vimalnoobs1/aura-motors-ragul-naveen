@@ -32,7 +32,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
             <span className="text-[9px] font-mono-tech text-[#d4af37] uppercase tracking-wider block font-semibold">
               PROJECT ARCHITECT
             </span>
-            <span className="text-xs sm:text-sm font-bold text-white font-rajdhani block leading-tight">
+            <span className="text-xs sm:text-sm font-bold text-white font-syne block leading-tight">
               S. RAGUL
             </span>
             <span className="text-[10px] text-neutral-400 block font-sans truncate">
@@ -44,7 +44,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
             <span className="text-[9px] font-mono-tech text-[#d4af37] uppercase tracking-wider block font-semibold">
               PROJECT ENGINEER
             </span>
-            <span className="text-xs sm:text-sm font-bold text-white font-rajdhani block leading-tight">
+            <span className="text-xs sm:text-sm font-bold text-white font-syne block leading-tight">
               NAVEENKUMAR S
             </span>
             <span className="text-[10px] text-neutral-400 block font-sans truncate">
@@ -67,7 +67,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
             </span>
           </div>
 
-          <h1 className="text-2xl sm:text-4xl lg:text-5xl font-rajdhani font-black tracking-tight text-white uppercase drop-shadow-[0_10px_25px_rgba(0,0,0,0.9)] leading-none">
+          <h1 className="text-2xl sm:text-4xl lg:text-5xl font-syne font-extrabold tracking-tight text-white uppercase drop-shadow-[0_10px_25px_rgba(0,0,0,0.9)] leading-none">
             AURA SPECTRE V12
           </h1>
 
@@ -92,7 +92,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
               <span className="text-[9px] font-mono-tech text-neutral-400 uppercase tracking-widest block mb-0.5">
                 0–100
               </span>
-              <span className="text-lg sm:text-2xl font-rajdhani font-bold text-white tracking-wide">
+              <span className="text-lg sm:text-2xl font-syne font-bold text-white tracking-wide">
                 2.1s
               </span>
             </div>
@@ -103,8 +103,8 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
               <span className="text-[9px] font-mono-tech text-neutral-400 uppercase tracking-widest block mb-0.5">
                 TOP SPEED
               </span>
-              <span className="text-lg sm:text-2xl font-rajdhani font-bold text-white tracking-wide">
-                425 <span className="text-xs font-normal text-neutral-400">KM/H</span>
+              <span className="text-lg sm:text-2xl font-syne font-bold text-white tracking-wide">
+                425 <span className="text-xs font-normal text-neutral-400 font-mono-tech">KM/H</span>
               </span>
             </div>
 
@@ -114,8 +114,8 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
               <span className="text-[9px] font-mono-tech text-neutral-400 uppercase tracking-widest block mb-0.5">
                 POWER
               </span>
-              <span className="text-lg sm:text-2xl font-rajdhani font-bold text-white tracking-wide">
-                1,480 <span className="text-xs font-normal text-neutral-400">BHP</span>
+              <span className="text-lg sm:text-2xl font-syne font-bold text-white tracking-wide">
+                1,480 <span className="text-xs font-normal text-neutral-400 font-mono-tech">BHP</span>
               </span>
             </div>
 
@@ -126,7 +126,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
               <span className="text-[9px] font-mono-tech text-[#d4af37] uppercase tracking-widest block mb-0.5 font-semibold">
                 PRICE
               </span>
-              <span className="text-lg sm:text-2xl font-rajdhani font-black text-amber-200">
+              <span className="text-lg sm:text-2xl font-syne font-extrabold text-amber-200">
                 ₹8.50 CR
               </span>
             </div>
@@ -140,7 +140,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
                 engineSound.playActivationChime();
                 onExplore();
               }}
-              className="flex-1 sm:flex-none min-h-[44px] px-6 sm:px-9 py-3 rounded-full bg-gradient-to-r from-[#e6ca9c] via-[#f7ebd7] to-[#d4af37] hover:brightness-110 text-neutral-950 font-rajdhani font-bold text-xs sm:text-sm tracking-[0.2em] uppercase transition-all transform hover:scale-[1.02] active:scale-95 cursor-pointer shadow-[0_0_25px_rgba(212,175,55,0.35)] flex items-center justify-center gap-2"
+              className="flex-1 sm:flex-none min-h-[44px] px-6 sm:px-9 py-3 rounded-full bg-gradient-to-r from-[#e6ca9c] via-[#f7ebd7] to-[#d4af37] hover:brightness-110 text-neutral-950 font-syne font-bold text-xs sm:text-sm tracking-[0.16em] uppercase transition-all transform hover:scale-[1.02] active:scale-95 cursor-pointer shadow-[0_0_25px_rgba(212,175,55,0.35)] flex items-center justify-center gap-2"
             >
               <span>EXPLORE</span>
               <ArrowRight className="w-4 h-4 text-neutral-950" />
@@ -152,7 +152,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
                 engineSound.playClickBeep();
                 onConfigure();
               }}
-              className="flex-1 sm:flex-none min-h-[44px] px-6 sm:px-9 py-3 rounded-full bg-[#141722]/90 hover:bg-[#1c202d] text-neutral-100 hover:text-white border border-[#d4af37]/40 hover:border-[#d4af37] font-rajdhani font-bold text-xs sm:text-sm tracking-[0.2em] uppercase transition-all backdrop-blur-xl transform hover:scale-[1.02] active:scale-95 cursor-pointer shadow-lg flex items-center justify-center gap-2"
+              className="flex-1 sm:flex-none min-h-[44px] px-6 sm:px-9 py-3 rounded-full bg-[#141722]/90 hover:bg-[#1c202d] text-neutral-100 hover:text-white border border-[#d4af37]/40 hover:border-[#d4af37] font-syne font-bold text-xs sm:text-sm tracking-[0.16em] uppercase transition-all backdrop-blur-xl transform hover:scale-[1.02] active:scale-95 cursor-pointer shadow-lg flex items-center justify-center gap-2"
             >
               <Sliders className="w-3.5 h-3.5 text-[#d4af37]" />
               <span>CONFIGURE</span>

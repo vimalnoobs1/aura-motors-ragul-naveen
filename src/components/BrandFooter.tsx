@@ -27,7 +27,7 @@ export const BrandFooter: React.FC<BrandFooterProps> = ({
               <div className="w-8 h-8 rounded-xl border border-[#d4af37]/60 bg-gradient-to-br from-[#24283b] to-[#121520] flex items-center justify-center shadow-[0_0_15px_rgba(212,175,55,0.25)]">
                 <span className="font-serif font-black text-sm text-[#e6ca9c] tracking-tighter">Λ</span>
               </div>
-              <span className="font-rajdhani text-xl font-black tracking-[0.25em] text-white uppercase">
+              <span className="font-syne text-xl font-extrabold tracking-[0.22em] text-white uppercase">
                 AURA MOTORS
               </span>
             </div>

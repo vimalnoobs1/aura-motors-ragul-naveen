@@ -203,7 +203,7 @@ export const CollectionCarousel: React.FC<CollectionCarouselProps> = ({
                 CURATED ATELIER FLEET
               </span>
             </div>
-            <h2 className="text-2xl sm:text-4xl md:text-5xl font-rajdhani font-black tracking-tight text-white uppercase">
+            <h2 className="text-2xl sm:text-4xl md:text-5xl font-syne font-extrabold tracking-tight text-white uppercase">
               EXPLORE THE COLLECTION
             </h2>
           </div>
@@ -219,7 +219,7 @@ export const CollectionCarousel: React.FC<CollectionCarouselProps> = ({
               id="carousel-prev"
               onClick={handlePrev}
               aria-label="Previous Car"
-              className="min-h-[44px] px-3.5 sm:px-4 py-2 rounded-xl bg-[#151824] hover:bg-[#1d2232] text-neutral-200 hover:text-white border border-neutral-750 hover:border-[#d4af37]/60 transition-all cursor-pointer shadow-md flex items-center gap-1.5 text-xs font-rajdhani font-bold tracking-wider uppercase active:scale-95"
+              className="min-h-[44px] px-3.5 sm:px-4 py-2 rounded-xl bg-[#151824] hover:bg-[#1d2232] text-neutral-200 hover:text-white border border-neutral-750 hover:border-[#d4af37]/60 transition-all cursor-pointer shadow-md flex items-center gap-1.5 text-xs font-syne font-bold tracking-wider uppercase active:scale-95"
             >
               <ChevronLeft className="w-4 h-4 text-[#d4af37]" />
               <span className="hidden sm:inline">PREVIOUS CAR</span>
@@ -229,7 +229,7 @@ export const CollectionCarousel: React.FC<CollectionCarouselProps> = ({
               id="carousel-next"
               onClick={handleNext}
               aria-label="Next Car"
-              className="min-h-[44px] px-3.5 sm:px-4 py-2 rounded-xl bg-[#151824] hover:bg-[#1d2232] text-neutral-200 hover:text-white border border-neutral-750 hover:border-[#d4af37]/60 transition-all cursor-pointer shadow-md flex items-center gap-1.5 text-xs font-rajdhani font-bold tracking-wider uppercase active:scale-95"
+              className="min-h-[44px] px-3.5 sm:px-4 py-2 rounded-xl bg-[#151824] hover:bg-[#1d2232] text-neutral-200 hover:text-white border border-neutral-750 hover:border-[#d4af37]/60 transition-all cursor-pointer shadow-md flex items-center gap-1.5 text-xs font-syne font-bold tracking-wider uppercase active:scale-95"
             >
               <span className="hidden sm:inline">NEXT CAR</span>
               <ChevronRight className="w-4 h-4 text-[#d4af37]" />
@@ -246,15 +246,15 @@ export const CollectionCarousel: React.FC<CollectionCarouselProps> = ({
                 ACTIVE VEHICLE SPOTLIGHT
               </span>
             </div>
-            <h3 className="text-2xl sm:text-4xl font-rajdhani font-black tracking-tight text-white uppercase">
+            <h3 className="text-2xl sm:text-4xl font-syne font-extrabold tracking-tight text-white uppercase">
               {selectedVehicle.name}
             </h3>
-            <div className="text-xl sm:text-2xl font-rajdhani font-bold text-amber-200/95 mt-1">
+            <div className="text-xl sm:text-2xl font-syne font-extrabold text-amber-200/95 mt-1">
               ₹{selectedVehicle.priceInCrores.toFixed(2)} CR
             </div>
           </div>
 
-          <div className="flex flex-wrap items-center gap-6 sm:gap-10 font-rajdhani text-center">
+          <div className="flex flex-wrap items-center gap-6 sm:gap-10 font-syne text-center">
             <div>
               <span className="text-[10px] font-mono-tech text-neutral-400 uppercase tracking-wider block">0–100</span>
               <span className="text-xl sm:text-2xl font-bold text-white">{selectedVehicle.acceleration0to100}s</span>
@@ -279,7 +279,7 @@ export const CollectionCarousel: React.FC<CollectionCarouselProps> = ({
                 onSelectVehicle(selectedVehicle);
                 onOpen3DShowroom();
               }}
-              className="min-h-[44px] px-6 py-3 rounded-full bg-gradient-to-r from-[#e5ca9a] via-[#f7ebd8] to-[#d4af37] hover:brightness-110 text-neutral-950 font-rajdhani font-bold text-xs tracking-[0.22em] uppercase transition-all shadow-[0_0_25px_rgba(212,175,55,0.35)] flex items-center justify-center gap-2 cursor-pointer hover:scale-105 active:scale-95"
+              className="min-h-[44px] px-6 py-3 rounded-full bg-gradient-to-r from-[#e5ca9a] via-[#f7ebd8] to-[#d4af37] hover:brightness-110 text-neutral-950 font-syne font-bold text-xs tracking-[0.16em] uppercase transition-all shadow-[0_0_25px_rgba(212,175,55,0.35)] flex items-center justify-center gap-2 cursor-pointer hover:scale-105 active:scale-95"
             >
               <Box className="w-4 h-4 text-neutral-950" />
               <span>VIEW IN 3D</span>
@@ -292,7 +292,7 @@ export const CollectionCarousel: React.FC<CollectionCarouselProps> = ({
                 onSelectVehicle(selectedVehicle);
                 onConfigureVehicle(selectedVehicle);
               }}
-              className="min-h-[44px] px-6 py-3 rounded-full bg-[#151824] hover:bg-[#1d2232] text-white border border-[#d4af37]/40 font-rajdhani font-bold text-xs tracking-[0.22em] uppercase transition-all shadow-md flex items-center justify-center gap-2 cursor-pointer active:scale-95"
+              className="min-h-[44px] px-6 py-3 rounded-full bg-[#151824] hover:bg-[#1d2232] text-white border border-[#d4af37]/40 font-syne font-bold text-xs tracking-[0.16em] uppercase transition-all shadow-md flex items-center justify-center gap-2 cursor-pointer active:scale-95"
             >
               <Sliders className="w-3.5 h-3.5 text-[#d4af37]" />
               <span>CONFIGURE</span>
@@ -364,12 +364,12 @@ export const CollectionCarousel: React.FC<CollectionCarouselProps> = ({
 
               {/* Top Header: Model Name & Price */}
               <div className="flex items-start justify-between gap-3 mb-3">
-                <h4 className="text-xl sm:text-2xl font-rajdhani font-black tracking-tight text-white uppercase leading-tight">
+                <h4 className="text-xl sm:text-2xl font-syne font-extrabold tracking-tight text-white uppercase leading-tight">
                   {vehicle.name}
                 </h4>
 
                 <div className="text-right shrink-0">
-                  <span className="text-lg sm:text-xl font-rajdhani font-bold text-amber-200">
+                  <span className="text-lg sm:text-xl font-syne font-extrabold text-amber-200">
                     ₹{vehicle.priceInCrores.toFixed(2)} CR
                   </span>
                 </div>
@@ -381,7 +381,7 @@ export const CollectionCarousel: React.FC<CollectionCarouselProps> = ({
               </div>
 
               {/* 3-Spec Row: 0-100, Top Speed, Power */}
-              <div className="grid grid-cols-3 gap-2 my-3 pt-3 border-t border-neutral-800/80 font-rajdhani text-center">
+              <div className="grid grid-cols-3 gap-2 my-3 pt-3 border-t border-neutral-800/80 font-syne text-center">
                 <div>
                   <span className="text-[9px] font-mono-tech text-neutral-400 uppercase tracking-wider block">0–100</span>
                   <span className="text-base sm:text-lg font-bold text-white">{vehicle.acceleration0to100}s</span>
@@ -405,7 +405,7 @@ export const CollectionCarousel: React.FC<CollectionCarouselProps> = ({
                     engineSound.playConfirmationBeep();
                     scrollToIndex(idx);
                   }}
-                  className={`min-h-[44px] py-2.5 px-2 rounded-xl text-[11px] font-rajdhani font-bold tracking-wider uppercase transition-all cursor-pointer text-center flex items-center justify-center gap-1 active:scale-95 ${
+                  className={`min-h-[44px] py-2.5 px-2 rounded-xl text-[11px] font-syne font-bold tracking-wider uppercase transition-all cursor-pointer text-center flex items-center justify-center gap-1 active:scale-95 ${
                     isSelected
                       ? 'bg-[#d4af37] text-neutral-950 shadow-md font-black'
                       : 'bg-white/10 hover:bg-white/20 text-white border border-neutral-700'
@@ -429,7 +429,7 @@ export const CollectionCarousel: React.FC<CollectionCarouselProps> = ({
                     onSelectVehicle(vehicle);
                     onOpen3DShowroom();
                   }}
-                  className="min-h-[44px] py-2.5 px-2 rounded-xl text-[11px] font-rajdhani font-bold tracking-wider uppercase bg-gradient-to-r from-neutral-100 to-white hover:brightness-105 text-neutral-950 transition-all cursor-pointer text-center shadow-sm flex items-center justify-center gap-1 active:scale-95"
+                  className="min-h-[44px] py-2.5 px-2 rounded-xl text-[11px] font-syne font-bold tracking-wider uppercase bg-gradient-to-r from-neutral-100 to-white hover:brightness-105 text-neutral-950 transition-all cursor-pointer text-center shadow-sm flex items-center justify-center gap-1 active:scale-95"
                 >
                   <Box className="w-3.5 h-3.5 text-neutral-950" />
                   <span>VIEW 3D</span>
@@ -443,7 +443,7 @@ export const CollectionCarousel: React.FC<CollectionCarouselProps> = ({
                     onSelectVehicle(vehicle);
                     onConfigureVehicle(vehicle);
                   }}
-                  className="min-h-[44px] py-2.5 px-2 rounded-xl text-[11px] font-rajdhani font-bold tracking-wider uppercase bg-[#141723] hover:bg-[#1b202e] text-neutral-200 hover:text-white border border-neutral-750 hover:border-[#d4af37]/60 transition-all cursor-pointer text-center flex items-center justify-center gap-1 active:scale-95"
+                  className="min-h-[44px] py-2.5 px-2 rounded-xl text-[11px] font-syne font-bold tracking-wider uppercase bg-[#141723] hover:bg-[#1b202e] text-neutral-200 hover:text-white border border-neutral-750 hover:border-[#d4af37]/60 transition-all cursor-pointer text-center flex items-center justify-center gap-1 active:scale-95"
                 >
                   <Sliders className="w-3 h-3 text-[#d4af37]" />
                   <span>CONFIGURE</span>

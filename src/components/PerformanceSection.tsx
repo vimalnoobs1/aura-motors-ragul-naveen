@@ -46,7 +46,7 @@ export const PerformanceSection: React.FC<PerformanceSectionProps> = ({
                 DYNAMICS & TELEMETRY BENCHMARKS
               </span>
             </div>
-            <h2 className="text-4xl sm:text-6xl md:text-7xl font-rajdhani font-black tracking-tight text-white uppercase">
+            <h2 className="text-4xl sm:text-6xl md:text-7xl font-syne font-extrabold tracking-tight text-white uppercase">
               PERFORMANCE
             </h2>
           </div>
@@ -56,7 +56,7 @@ export const PerformanceSection: React.FC<PerformanceSectionProps> = ({
               engineSound.playActivationChime();
               onOpen3DShowroom();
             }}
-            className="self-start md:self-auto px-6 py-3 rounded-full bg-[#151824] hover:bg-[#1d2232] text-white border border-neutral-750 hover:border-[#d4af37]/60 font-rajdhani font-bold text-xs tracking-[0.2em] uppercase transition-all cursor-pointer flex items-center gap-2 shadow-lg hover:scale-105 active:scale-95"
+            className="self-start md:self-auto px-6 py-3 rounded-full bg-[#151824] hover:bg-[#1d2232] text-white border border-neutral-750 hover:border-[#d4af37]/60 font-syne font-bold text-xs tracking-[0.16em] uppercase transition-all cursor-pointer flex items-center gap-2 shadow-lg hover:scale-105 active:scale-95"
           >
             <Box className="w-3.5 h-3.5 text-[#d4af37]" />
             <span>3D TELEMETRY</span>
@@ -69,7 +69,7 @@ export const PerformanceSection: React.FC<PerformanceSectionProps> = ({
             <span className="text-[10px] font-mono-tech tracking-[0.2em] text-[#d4af37] uppercase font-semibold block">
               MAX OUTPUT
             </span>
-            <div className="text-4xl sm:text-5xl font-rajdhani font-black text-white mt-2">
+            <div className="text-4xl sm:text-5xl font-syne font-extrabold text-white mt-2">
               {vehicle.powerBhp} <span className="text-sm font-mono-tech text-[#d4af37]">BHP</span>
             </div>
             <span className="text-xs font-mono-tech text-neutral-400 mt-2 block">
@@ -81,7 +81,7 @@ export const PerformanceSection: React.FC<PerformanceSectionProps> = ({
             <span className="text-[10px] font-mono-tech tracking-[0.2em] text-[#d4af37] uppercase font-semibold block">
               PEAK TORQUE
             </span>
-            <div className="text-4xl sm:text-5xl font-rajdhani font-black text-white mt-2">
+            <div className="text-4xl sm:text-5xl font-syne font-extrabold text-white mt-2">
               {vehicle.torqueNm} <span className="text-sm font-mono-tech text-[#d4af37]">NM</span>
             </div>
             <span className="text-xs font-mono-tech text-neutral-400 mt-2 block">
@@ -93,7 +93,7 @@ export const PerformanceSection: React.FC<PerformanceSectionProps> = ({
             <span className="text-[10px] font-mono-tech tracking-[0.2em] text-[#d4af37] uppercase font-semibold block">
               0–100 KM/H
             </span>
-            <div className="text-4xl sm:text-5xl font-rajdhani font-black text-white mt-2">
+            <div className="text-4xl sm:text-5xl font-syne font-extrabold text-white mt-2">
               {vehicle.acceleration0to100} <span className="text-sm font-mono-tech text-[#d4af37]">SEC</span>
             </div>
             <span className="text-xs font-mono-tech text-neutral-400 mt-2 block">
@@ -105,7 +105,7 @@ export const PerformanceSection: React.FC<PerformanceSectionProps> = ({
             <span className="text-[10px] font-mono-tech tracking-[0.2em] text-[#d4af37] uppercase font-semibold block">
               TOP SPEED
             </span>
-            <div className="text-4xl sm:text-5xl font-rajdhani font-black text-white mt-2">
+            <div className="text-4xl sm:text-5xl font-syne font-extrabold text-white mt-2">
               {vehicle.topSpeedKmh} <span className="text-sm font-mono-tech text-[#d4af37]">KM/H</span>
             </div>
             <span className="text-xs font-mono-tech text-neutral-400 mt-2 block">

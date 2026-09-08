@@ -23,7 +23,7 @@ export const FinalCtaSection: React.FC<FinalCtaSectionProps> = ({
           </span>
         </div>
 
-        <h2 className="text-5xl sm:text-7xl md:text-8xl font-rajdhani font-black tracking-tight text-white uppercase leading-none">
+        <h2 className="text-5xl sm:text-7xl md:text-8xl font-syne font-extrabold tracking-tight text-white uppercase leading-none">
           MAKE IT YOURS
         </h2>
 
@@ -35,7 +35,7 @@ export const FinalCtaSection: React.FC<FinalCtaSectionProps> = ({
               engineSound.playActivationChime();
               onRequestQuote();
             }}
-            className="w-full sm:w-auto px-10 py-4 rounded-full bg-gradient-to-r from-[#e5ca9a] via-[#f7ebd8] to-[#d4af37] hover:brightness-110 text-neutral-950 font-rajdhani font-bold text-xs sm:text-sm tracking-[0.25em] uppercase transition-all shadow-[0_0_30px_rgba(212,175,55,0.35)] hover:scale-105 active:scale-95 cursor-pointer"
+            className="w-full sm:w-auto px-10 py-4 rounded-full bg-gradient-to-r from-[#e5ca9a] via-[#f7ebd8] to-[#d4af37] hover:brightness-110 text-neutral-950 font-syne font-bold text-xs sm:text-sm tracking-[0.18em] uppercase transition-all shadow-[0_0_30px_rgba(212,175,55,0.35)] hover:scale-105 active:scale-95 cursor-pointer"
           >
             REQUEST A QUOTE
           </button>
@@ -46,7 +46,7 @@ export const FinalCtaSection: React.FC<FinalCtaSectionProps> = ({
               engineSound.playClickBeep();
               onBookViewing();
             }}
-            className="w-full sm:w-auto px-10 py-4 rounded-full bg-[#151824] hover:bg-[#1d2232] text-white border border-neutral-750 hover:border-[#d4af37]/60 font-rajdhani font-bold text-xs sm:text-sm tracking-[0.25em] uppercase transition-all hover:scale-105 active:scale-95 cursor-pointer shadow-lg"
+            className="w-full sm:w-auto px-10 py-4 rounded-full bg-[#151824] hover:bg-[#1d2232] text-white border border-neutral-750 hover:border-[#d4af37]/60 font-syne font-bold text-xs sm:text-sm tracking-[0.18em] uppercase transition-all hover:scale-105 active:scale-95 cursor-pointer shadow-lg"
           >
             BOOK A PRIVATE VIEWING
           </button>
