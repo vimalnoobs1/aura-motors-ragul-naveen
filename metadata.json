@@ -1,0 +1,6 @@
+{
+  "name": "AURA MOTORS — Luxury Automotive Atelier & Interactive 3D Virtual Showroom",
+  "description": "Interactive 3D Virtual Showroom & Engineering Configurator for the AURA SPECTRE V12 Hyper-GT.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
